@@ -1,0 +1,12 @@
+<div class="summary-container" *ngIf="car">
+    <mat-grid-list cols="3">
+        <mat-grid-tile colspan="2" rowspan="2">
+            <img [src]="car.imageUrl" class="image" />
+        </mat-grid-tile>
+        <mat-grid-tile colspan="1" rowspan="2">
+            {{"Vous avez choisi la voiture " + car.brand}}
+
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
+<!-- <button (click)="fetchData()">Actualiser</button> -->

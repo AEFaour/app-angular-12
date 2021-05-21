@@ -1,0 +1,6 @@
+<div class="list-container">
+    <app-summary></app-summary>
+    <mat-selection-list>
+        <app-item *ngFor='let element of items' (sigShare)="shareCallback($event)" [car]="element"></app-item>
+    </mat-selection-list>
+</div>

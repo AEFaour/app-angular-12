@@ -1,0 +1,18 @@
+<div class="form-container">
+    <form [formGroup]="authenForm" #myForm class="form">
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" required formControlName="email" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Mot de Passe</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'" required formControlName="password" />
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria.label]="'Hide password'" [attr.aria.pressed]="hide">
+        <mat-icon>{{ hide ? "visibility_off" : "visibility" }} </mat-icon>
+      </button>
+        </mat-form-field>
+        <button class="button-connection" mat-flat-button color="primary" [disabled]="authenForm.invalid" (click)="onConnnectClick()">
+      Connexion
+    </button>
+    </form>
+</div>

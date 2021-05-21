@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "brand": "Econoline E150",
+    "owner": "Hélèna",
+    "type": 1,
+    "sold": true,
+    "ownerImageUrl": "https://images.pexels.com/photos/1674752/pexels-photo-1674752.jpeg?cs=srgb&dl=pexels-tony-jamesandersson-1674752.jpg&fm=jpg",
+    "imageUrl": "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mike-170811.jpg&fm=jpg",
+    "doors": 3
+  },
+  {
+    "id": 2,
+    "brand": "Mustang",
+    "owner": "Yè",
+    "type": 2,
+    "sold": false,
+    "ownerImageUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg",
+    "imageUrl": "https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?cs=srgb&dl=pexels-kelson-downes-1149137.jpg&fm=jpg",
+    "doors": 5
+  },
+  {
+    "id": 3,
+    "brand": "Twingo",
+    "owner": "Dà",
+    "type": 3,
+    "sold": false,
+    "ownerImageUrl": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?cs=srgb&dl=pexels-spencer-selover-428364.jpg&fm=jpg",
+    "imageUrl": "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?cs=srgb&dl=pexels-pixabay-210019.jpg&fm=jpg",
+    "doors": 3
+  },
+  {
+    "id": 4,
+    "brand": "LeBaron",
+    "owner": "Rachèle",
+    "type": 2,
+    "sold": false,
+    "ownerImageUrl": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?cs=srgb&dl=pexels-pixabay-415829.jpg&fm=jpg",
+    "imageUrl": "https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?cs=srgb&dl=pexels-alexgtacar-1592384.jpg&fm=jpg",
+    "doors": 5
+  },
+  {
+    "id": 5,
+    "brand": "Solara",
+    "owner": "Anaïs",
+    "type": 0,
+    "sold": true,
+    "ownerImageUrl": "https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg?cs=srgb&dl=pexels-adrienn-1542085.jpg&fm=jpg",
+    "imageUrl": "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?cs=srgb&dl=pexels-mike-116675.jpg&fm=jpg",
+    "doors": 3
+  }
+]
